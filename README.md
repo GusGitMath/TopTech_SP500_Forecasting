@@ -1,22 +1,21 @@
-# Top_Tech_S-P_500_Forecasting
-Forecasting the stock market is difficult. I sought to observe 
-the relationship between Apple's stock price and others in the
-S&P500. In doing this, I was able to conclude that stocks in the 
-tech industry can help predict a trend in Apple's
-Percent change. Using this, I went on to use a VAR model to
-help accommodate this relationship and actually forecast
-the next quarter. From this, I tested the VAR model versus the
-Arima model to ensure that using stocks in the related field 
-is significant or not.
+# Top Tech S&P 500 Forecasting
 
-Also note that the dataset uploaded is not the same one used.
-The version shared here is a cleaned version consisting of only
-the top ten tech stocks in the S&P500 based on average volume. 
-A link to the orignal data set is below.
+**Date:** November 2022
 
-https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?select=sp500_stocks.csv
+## Overview
 
-A teanty five page paper was written that goes in-depth on the anaylsis portion
-of the data analysis and modeling. If you would like to read it please contact me.
+Forecasting the stock market is inherently challenging. This project explores the relationship between Apple's stock price and other stocks in the S&P 500, particularly those in the technology sector. Through this analysis, I discovered that tech industry stocks can help predict trends in Apple's percentage price changes.
 
-Math & Physics Fun with Gus!
+To model this relationship, I implemented a Vector Autoregression (VAR) model to forecast Apple's stock price for the next quarter. I then compared the performance of the VAR model against an ARIMA model to assess whether incorporating related stocks significantly improves forecasting accuracy.
+
+## Data
+
+Please note that the dataset provided here is a cleaned version, containing only the top ten tech stocks in the S&P 500 based on average trading volume. The original dataset, which includes a broader range of stocks, can be accessed through the following link:
+
+[Original S&P 500 Stocks Dataset](https://www.kaggle.com/datasets/andrewmvd/sp-500-stocks?select=sp500_stocks.csv)
+
+## Further Reading
+
+A comprehensive analysis of the data and modeling process was documented in a twenty-five-page paper. If you are interested in reading the full analysis, please feel free to contact me.
+
+**Math & Physics Fun with Gus!**
